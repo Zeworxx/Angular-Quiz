@@ -1,1 +1,22 @@
-<p>categories works!</p>
+<div class="global-container">
+  <div class="search-container">
+    <input
+      type="text"
+      [(ngModel)]="searchTerm"
+      placeholder="Rechercher par nom"
+      name="search"
+    />
+    <button (click)="searchCategories()">Rechercher</button>
+    <button (click)="resetFilter()">Réinitialiser</button>
+  </div>
+
+  <div class="container">
+    <button
+      class="category-card"
+      *ngFor="let category of categories$ | async"
+      (click)="navigateTo(category.id)"
+    >
+      <span>{{ category.categoryLabel }}</span>
+    </button>
+  </div>
+</div>

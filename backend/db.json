@@ -1,112 +1,112 @@
 {
-  "catgegory": [
+  "category": [
     {
-      "id": 1,
+      "id": "1",
       "categoryLabel": "Angular"
     },
     {
-      "id": 2,
+      "id": "2",
       "categoryLabel": "React"
     }
   ],
   "questions": [
     {
-      "id": 1,
+      "id": "1",
       "questionLabel": "What is a component in Angular?",
       "categoryId": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "questionLabel": "Explain the purpose of the NgModule in Angular.",
       "categoryId": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "questionLabel": "How do you create a new Angular application?",
       "categoryId": 1
     },
     {
-      "id": 4,
+      "id": "4",
       "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
       "categoryId": 1
     },
     {
-      "id": 5,
+      "id": "5",
       "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
       "categoryId": 1
     },
     {
-      "id": 6,
+      "id": "6",
       "questionLabel": "What is event binding in Angular, and how is it implemented?",
       "categoryId": 1
     },
     {
-      "id": 7,
+      "id": "7",
       "questionLabel": "What is Angular CLI, and how do you use it to generate components?",
       "categoryId": 1
     },
     {
-      "id": 8,
+      "id": "8",
       "questionLabel": "What is a directive in Angular? Can you name some built-in directives?",
       "categoryId": 1
     },
     {
-      "id": 9,
+      "id": "9",
       "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application.",
       "categoryId": 1
     },
     {
-      "id": 10,
+      "id": "10",
       "questionLabel": "What is dependency injection in Angular, and why is it important?",
       "categoryId": 1
     },
     {
-      "id": 11,
+      "id": "11",
       "questionLabel": "What is a component in React?",
       "categoryId": 2
     },
     {
-      "id": 12,
+      "id": "12",
       "questionLabel": "What is the purpose of the useState hook in React?",
       "categoryId": 2
     },
     {
-      "id": 13,
+      "id": "13",
       "questionLabel": "How do you create a new React application?",
       "categoryId": 2
     },
     {
-      "id": 14,
+      "id": "14",
       "questionLabel": "What is JSX in React?",
       "categoryId": 2
     },
     {
-      "id": 15,
+      "id": "15",
       "questionLabel": "What is the difference between state and props in React?",
       "categoryId": 2
     },
     {
-      "id": 16,
+      "id": "16",
       "questionLabel": "What is the useEffect hook used for in React?",
       "categoryId": 2
     },
     {
-      "id": 17,
+      "id": "17",
       "questionLabel": "What is a higher-order component (HOC) in React?",
       "categoryId": 2
     },
     {
-      "id": 18,
+      "id": "18",
       "questionLabel": "What is the virtual DOM in React?",
       "categoryId": 2
     },
     {
-      "id": 19,
+      "id": "19",
       "questionLabel": "How do you handle events in React?",
       "categoryId": 2
     },
     {
-      "id": 20,
+      "id": "20",
       "questionLabel": "What is the context API in React?",
       "categoryId": 2
     }
@@ -115,414 +115,499 @@
     {
       "questionId": 1,
       "answerLabel": "A reusable building block for the user interface",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5f46"
     },
     {
       "questionId": 1,
       "answerLabel": "A style in Angular",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "4bd7"
     },
     {
       "questionId": 1,
       "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "68dd"
     },
     {
       "questionId": 1,
       "answerLabel": "A routing configuration",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "45c0"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "0352"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "6aac"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "56ff"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "dd01"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "7b6f"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0266"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using pure JavaScript.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "78b5"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using Python.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0087"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "4314"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is used for creating components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2fcf"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a routing feature.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "06c4"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is only available for services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "ad53"
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "90d1"
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "37ae"
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0589"
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "6cf2"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5f20"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining component styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2a61"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "fd3a"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "def9"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "e572"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a component in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "656b"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5968"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "1ed1"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "96c6"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a component.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "66e2"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a service.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "fd0b"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "fee6"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is a library for navigating between views and components.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "d506"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5c14"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "945a"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2751"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "f27b"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c6fe"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3606"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2ce1"
     },
     {
       "questionId": 11,
       "answerLabel": "A component in React is a reusable piece of UI.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "f892"
     },
     {
       "questionId": 11,
       "answerLabel": "A component in React is a service.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f846"
     },
     {
       "questionId": 11,
       "answerLabel": "A component in React is a directive.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "fc52"
     },
     {
       "questionId": 11,
       "answerLabel": "A component in React is a module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0afc"
     },
     {
       "questionId": 12,
       "answerLabel": "The useState hook in React is used to manage state in functional components.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "0c5b"
     },
     {
       "questionId": 12,
       "answerLabel": "The useState hook in React is used for routing.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "ec32"
     },
     {
       "questionId": 12,
       "answerLabel": "The useState hook in React is used for styling components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "acde"
     },
     {
       "questionId": 12,
       "answerLabel": "The useState hook in React is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3cb8"
     },
     {
       "questionId": 13,
       "answerLabel": "You can create a new React application using the Create React App CLI by running 'npx create-react-app app-name'.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "8c34"
     },
     {
       "questionId": 13,
       "answerLabel": "You can create a new React application by writing HTML and CSS files.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0206"
     },
     {
       "questionId": 13,
       "answerLabel": "You can create a new React application using pure JavaScript.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "748b"
     },
     {
       "questionId": 13,
       "answerLabel": "You can create a new React application using Python.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5e0d"
     },
     {
       "questionId": 14,
       "answerLabel": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML and is used in React to describe the UI.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "8e5b"
     },
     {
       "questionId": 14,
       "answerLabel": "JSX is a CSS framework.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "ec24"
     },
     {
       "questionId": 14,
       "answerLabel": "JSX is a JavaScript library.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5629"
     },
     {
       "questionId": 14,
       "answerLabel": "JSX is a database query language.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b69e"
     },
     {
       "questionId": 15,
       "answerLabel": "State is a local data storage that is local to the component only and cannot be passed to other components, while props are used to pass data from one component to another.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "6011"
     },
     {
       "questionId": 15,
       "answerLabel": "State is used for styling components, while props are used for routing.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "9b76"
     },
     {
       "questionId": 15,
       "answerLabel": "State is used for handling HTTP requests, while props are used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "4c90"
     },
     {
       "questionId": 15,
       "answerLabel": "State is used for creating components, while props are used for creating services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "7974"
     },
     {
       "questionId": 16,
       "answerLabel": "The useEffect hook in React is used to perform side effects in functional components.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "11ce"
     },
     {
       "questionId": 16,
       "answerLabel": "The useEffect hook in React is used for styling components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "98bf"
     },
     {
       "questionId": 16,
       "answerLabel": "The useEffect hook in React is used for routing.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "70bc"
     },
     {
       "questionId": 16,
       "answerLabel": "The useEffect hook in React is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5533"
     },
     {
       "questionId": 17,
       "answerLabel": "A higher-order component (HOC) in React is a function that takes a component and returns a new component.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "f92f"
     },
     {
       "questionId": 17,
       "answerLabel": "A higher-order component (HOC) in React is a service.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b8da"
     },
     {
       "questionId": 17,
       "answerLabel": "A higher-order component (HOC) in React is a directive.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "b4ed"
     },
     {
       "questionId": 17,
       "answerLabel": "A higher-order component (HOC) in React is a module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f829"
     },
     {
       "questionId": 18,
       "answerLabel": "The virtual DOM in React is a lightweight copy of the actual DOM that React uses to optimize updates.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "c2a2"
     },
     {
       "questionId": 18,
       "answerLabel": "The virtual DOM in React is a CSS framework.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c622"
     },
     {
       "questionId": 18,
       "answerLabel": "The virtual DOM in React is a JavaScript library.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "4dd9"
     },
     {
       "questionId": 18,
       "answerLabel": "The virtual DOM in React is a database query language.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f6e7"
     },
     {
       "questionId": 19,
       "answerLabel": "You handle events in React by defining event handler functions and passing them as props to the elements.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "fd2c"
     },
     {
       "questionId": 19,
       "answerLabel": "You handle events in React by writing inline JavaScript.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "1348"
     },
     {
       "questionId": 19,
       "answerLabel": "You handle events in React by using CSS.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "537f"
     },
     {
       "questionId": 19,
       "answerLabel": "You handle events in React by using HTML attributes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2bd1"
     },
     {
       "questionId": 20,
       "answerLabel": "The context API in React is a way to pass data through the component tree without having to pass props down manually at every level.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "1b19"
     },
     {
       "questionId": 20,
       "answerLabel": "The context API in React is a CSS framework.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0957"
     },
     {
       "questionId": 20,
       "answerLabel": "The context API in React is a JavaScript library.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3ec4"
     },
     {
       "questionId": 20,
       "answerLabel": "The context API in React is a database query language.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c0b3"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "admin"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "user",
       "password": "user"
+    },
+    {
+      "id": "93c6",
+      "username": "toto",
+      "password": "toto77"
     }
   ]
 }
