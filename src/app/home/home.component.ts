@@ -25,6 +25,8 @@ export class HomeComponent implements OnInit {
 
   navigateToQuiz() {
     this.router.navigate(['/quiz', this.playerName]);
+    console.log('go quiz');
+    
   }
 
   confirmPseudo() {
